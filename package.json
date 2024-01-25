@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "npx jest --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "joi": "^17.12.0",
+    "mongodb-memory-server": "^6.1.6",
+    "mongoose": "^8.1.1",
+    "portfinder": "^1.0.32"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.3",
+    "supertest": "^6.3.4"
+  }
+}
